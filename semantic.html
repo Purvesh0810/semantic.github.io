@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML</title>
+</head>
+<body>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 50;
+            box-sizing: border-box;
+        }
+
+        #main-header{
+            height: 10vh;
+            background-color: aqua;
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        aside{
+            height: 80vh;
+            background-color: blue;
+            width: 30%;
+            float: left;
+            text-align: center;
+        }
+
+        .sub-heading{
+            height: 10vh;
+            background-color: brown;
+            text-align: center;
+        }
+
+        article{
+            height: 60vh;
+            background-color: blueviolet;
+            text-align: center;
+        }
+
+        #sub-footer{
+            height: 10vh;
+            background-color: chartreuse;
+            text-align: center;
+        }
+
+        .main-footer{
+            height: 10vh;
+            background-color: coral;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+
+    <!-- Main Header Start -->
+
+    <header id="main-header">
+        Main Header +NAV
+    </header>
+
+    <!-- Main Header End -->
+
+    <!-- Section Start -->
+
+    <aside>
+        Aside
+    </aside>
+
+    <header class="sub-heading">
+        Sub Header
+    </header>
+
+    <article>
+        Article
+    </article>
+
+    <footer id="sub-footer">
+        Sub Footer
+    </footer>
+
+    <!-- Section End -->
+
+    <!-- Main Footer Start -->
+
+    <footer class="main-footer">
+        Main Footer
+    </footer>
+
+    <!-- Main Footer End -->
+
+</body>
+</html>
